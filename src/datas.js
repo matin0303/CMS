@@ -49,4 +49,67 @@ let xAxisData = [
     },
 
 ]
-export {xAxisData}
+
+const newMember = [
+    {
+        id :1,
+        username : 'Mohammad Amin' , 
+        title : 'Web Developer',
+        img : './images/prof2.jpg'
+    },
+    {
+        id :2,
+        username : 'Qadir Yolme' , 
+        title : 'Hacker',
+        img : './images/prof3.jpg'
+    },
+    {
+        id :3,
+        username : 'Sasan Alizadeh' , 
+        title : 'Seo Eng',
+        img : './images/prof.jpg'
+    },
+    {
+        id :4,
+        username : 'Zahra Agayi' , 
+        title : 'Weblog',
+        img : './images/prof4.jpg'
+    },
+]
+
+
+const transactions = [
+    {
+        id :1,
+        customer : 'Qadir Yolma',
+        date:'12 Jun 2024',
+        amout : '$199.5',
+        status : 'Approved',
+        img: 'images/prof3.jpg'
+    },
+    {
+        id :2,
+        customer : 'Zahra Agayi',
+        date:'4 Nov 2024',
+        amout : '$140.0',
+        status : 'Declined',
+        img: 'images/prof4.jpg'
+    },
+    {
+        id :3,
+        customer : 'Mohammad Amin',
+        date:'17 Agu 2024',
+        amout : '$230.0',
+        status : 'Pending',
+        img: 'images/prof2.jpg'
+    },
+    {
+        id :4,
+        customer : 'Sasan Alizadeh',
+        date:'12 May 2024',
+        amout : '$120.0',
+        status : 'Approved',
+        img: 'images/prof.jpg'
+    },
+]
+export {xAxisData , newMember ,transactions}
