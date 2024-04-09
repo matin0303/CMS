@@ -20,7 +20,7 @@ export default function UserList() {
       width :50,
     },
     {
-      field : 'user' ,
+      field : 'username' ,
       headerName : 'User',
       width :200,
       renderCell: (params)=>{

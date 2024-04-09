@@ -181,4 +181,47 @@ const userRows = [
     },
 
 ]
-export {xAxisData , newMember ,transactions ,userRows}
+
+const products = [
+    {
+        id :1,
+        title :'Asus',
+        img : 'images/asus.jpg',
+        price : '$890'
+    },
+    {
+        id :2,
+        title :'Acer',
+        img : 'images/acer.jpg',
+        price : '$890'
+    },
+    {
+        id :3,
+        title :'Dell',
+        img : 'images/dell.jpg',
+        price : '$890'
+    },
+    {
+        id :4,
+        title :'Hp',
+        img : 'images/hp.jpg',
+        price : '$890'
+    }
+]
+
+const productData = [
+    {
+        name : 'Jan',
+        sales : 2000
+    },
+    {
+        name : 'Feb',
+        sales : 1000
+    },
+    {
+        name : 'Mar',
+        sales : 2500
+    },
+    
+]
+export {xAxisData , newMember ,transactions ,userRows ,products ,productData}
