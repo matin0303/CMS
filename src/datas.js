@@ -112,4 +112,73 @@ const transactions = [
         img: 'images/prof.jpg'
     },
 ]
-export {xAxisData , newMember ,transactions}
+
+const userRows = [
+    {
+        id :1,
+        username : 'Mohammad Amin' , 
+        img : './images/prof2.jpg',
+        email : 'MohammadAmin@gmail.com',
+        status : 'active',
+        transaction : '$1570'
+    },
+    {
+        id :2,
+        username : 'Qadir Yolme' , 
+        img : './images/prof3.jpg',
+        email : 'QadirYolme@gmail.com',
+        status : 'active',
+        transaction : '$2056'
+    },
+    {
+        id :3,
+        username : 'Sasan Alizadeh' , 
+        img : './images/prof.jpg',
+        email : 'SasanAlizadeh@gmail.com',
+        status : 'non - active',
+        transaction : '$1200'
+    },
+    {
+        id :4,
+        username : 'Zahra Agayi' , 
+        img : './images/prof4.jpg',
+        email : 'ZahraAgayi@gmail.com',
+        status : 'active',
+        transaction : '$2891'
+    },
+
+    {
+        id :5,
+        username : 'Mohammad Amin' , 
+        img : './images/prof2.jpg',
+        email : 'MohammadAmin@gmail.com',
+        status : 'active',
+        transaction : '$1570'
+    },
+    {
+        id :6,
+        username : 'Qadir Yolme' , 
+        img : './images/prof3.jpg',
+        email : 'QadirYolme@gmail.com',
+        status : 'active',
+        transaction : '$2056'
+    },
+    {
+        id :7,
+        username : 'Sasan Alizadeh' , 
+        img : './images/prof.jpg',
+        email : 'SasanAlizadeh@gmail.com',
+        status : 'non - active',
+        transaction : '$1200'
+    },
+    {
+        id :8,
+        username : 'Zahra Agayi' , 
+        img : './images/prof4.jpg',
+        email : 'ZahraAgayi@gmail.com',
+        status : 'active',
+        transaction : '$2891'
+    },
+
+]
+export {xAxisData , newMember ,transactions ,userRows}
