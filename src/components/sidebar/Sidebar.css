@@ -20,6 +20,7 @@
     list-style: none;
     padding: 5px;
 }
+
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem{
     padding: 5px;
     cursor: pointer;
@@ -27,9 +28,15 @@
     align-items: center;
     border-radius: 10px;
 }
-.sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem.active ,
+.sidebar .sidebarWrapper .sidebarMenu .sidebarList .active :first-child {
+    transition: all 0.3s;
+    background-color: rgb(240,240,255);
+    color: rgb(33, 33, 114);
+    transform:translateX(5%);
+}
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem:hover{
     background-color: rgb(240,240,255);
+    
 }
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem .sidebaricon{
     margin-right: 5px;
